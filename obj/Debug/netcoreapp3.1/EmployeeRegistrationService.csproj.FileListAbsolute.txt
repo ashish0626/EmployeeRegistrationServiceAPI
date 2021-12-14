@@ -58,4 +58,7 @@ D:\EmployeeRegistrationServiceAPI\obj\Debug\netcoreapp3.1\EmployeeRegistrationSe
 D:\EmployeeRegistrationServiceAPI\obj\Debug\netcoreapp3.1\EmployeeRegistrationService.dll
 D:\EmployeeRegistrationServiceAPI\obj\Debug\netcoreapp3.1\EmployeeRegistrationService.pdb
 D:\EmployeeRegistrationServiceAPI\obj\Debug\netcoreapp3.1\EmployeeRegistrationService.genruntimeconfig.cache
-D:\EmployeeRegistrationServiceAPI\obj\Debug\netcoreapp3.1\EmployeeRegistrationService.csproj.AssemblyReference.cache
+D:\EmployeeRegistrationServiceAPI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\EmployeeRegistrationServiceAPI\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+D:\EmployeeRegistrationServiceAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\EmployeeRegistrationServiceAPI\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
