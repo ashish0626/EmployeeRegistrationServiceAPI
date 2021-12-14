@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EmployeeRegistrationService\\EmployeeRegistrationService.csproj": {}
+    "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj": {}
   },
   "projects": {
-    "D:\\EmployeeRegistrationService\\EmployeeRegistrationService.csproj": {
+    "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EmployeeRegistrationService\\EmployeeRegistrationService.csproj",
+        "projectUniqueName": "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
         "projectName": "EmployeeRegistrationService",
-        "projectPath": "D:\\EmployeeRegistrationService\\EmployeeRegistrationService.csproj",
+        "projectPath": "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
         "packagesPath": "C:\\Users\\mangalda\\.nuget\\packages\\",
-        "outputPath": "D:\\EmployeeRegistrationService\\obj\\",
+        "outputPath": "D:\\EmployeeRegistrationServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://localhost/SST/offLineNuget.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://contoso.com/packages/": {},
+          "https://dotnet.microsoft.com/en-us/": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

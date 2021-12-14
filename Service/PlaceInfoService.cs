@@ -9,6 +9,8 @@ namespace EmployeeRegistrationService.Service
 {
     public class PlaceInfoService : IPlaceInfoService
     {
+        //public string sConStr = "Data Source=PEFLBELH3T;Initial Catalog=EmployeesDB;Integrated Security=True";
+        public string sConStr = "Data Source=sqlpocbyashish.database.windows.net;Initial Catalog=EmployeesDB;Persist Security Info=True;User ID=ashish;Password=Radha@0786";
         public int Add(PlaceInfo placeInfo)
         {
             string sQry = "INSERT INTO [PlaceInfo] ([Place],[About],[City],[State],[Country]) " +
@@ -73,7 +75,7 @@ namespace EmployeeRegistrationService.Service
 
         private int ExecuteCRUDByQuery(string strSql)
         {
-            string sConStr = "Data Source=PEFLBELH3T;Initial Catalog=EmployeesDB;Integrated Security=True";
+            //string sConStr = "Data Source=sqlpocbyashish.database.windows.net;Initial Catalog=EmployeesDB;Persist Security Info=True;User ID=ashish;Password=Radha@0786";
             SqlConnection conn = null;
             int iR = 0;
             try
@@ -92,7 +94,7 @@ namespace EmployeeRegistrationService.Service
 
         private DataTable ExecuteQuery(string strSql)
         {
-            string sConStr = "Data Source=.\\SQLExpress;Initial Catalog=BillGatesMoney;Integrated Security=True";
+            //string sConStr = "Data Source=.\\SQLExpress;Initial Catalog=BillGatesMoney;Integrated Security=True";
             SqlConnection conn = null;
             DataTable dt = null;
             try

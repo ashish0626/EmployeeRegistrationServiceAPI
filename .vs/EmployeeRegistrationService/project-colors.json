@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d11eba36-c628-4520-8629-8eb66f68ab93": {
+      "ProjectGuid": "d11eba36-c628-4520-8629-8eb66f68ab93",
+      "DisplayName": "EmployeeRegistrationService",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

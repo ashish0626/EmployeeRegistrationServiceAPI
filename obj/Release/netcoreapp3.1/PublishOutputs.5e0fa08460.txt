@@ -1,0 +1,17 @@
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\EmployeeRegistrationService.exe
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\appsettings.Development.json
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\appsettings.json
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\EmployeeRegistrationService.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\EmployeeRegistrationService.deps.json
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\EmployeeRegistrationService.runtimeconfig.json
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\EmployeeRegistrationService.pdb
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\Microsoft.OpenApi.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\System.Data.SqlClient.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\runtimes\win-arm64\native\sni.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\runtimes\win-x64\native\sni.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\runtimes\win-x86\native\sni.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EmployeeRegistrationServiceAPI\obj\Docker\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

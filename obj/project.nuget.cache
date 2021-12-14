@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u75e9zQnOolXGeRSd6VgHCQADCTlIcKeAdr2BU2RcC6u5c15y/uxMBZIZMHdnk4yD5csdLneqZRJhZbva8tRJg==",
+  "dgSpecHash": "wtRa1o0W3DSxJ7i9wUHErb58/CbHAr0+ItGKT+seZtcESF1Q+V9s9GnhAOQZJWdF+AE33+y88Dl1wzrtMJ0tjQ==",
   "success": true,
-  "projectFilePath": "D:\\EmployeeRegistrationService\\EmployeeRegistrationService.csproj",
+  "projectFilePath": "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\mangalda\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

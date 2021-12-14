@@ -1,0 +1,17 @@
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\EmployeeRegistrationService.exe
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\EmployeeRegistrationService.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\EmployeeRegistrationService.deps.json
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\EmployeeRegistrationService.runtimeconfig.json
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\EmployeeRegistrationService.pdb
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.Data.SqlClient.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EmployeeRegistrationServiceAPI\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
