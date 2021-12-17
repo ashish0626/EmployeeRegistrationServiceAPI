@@ -10,11 +10,11 @@ namespace EmployeeRegistrationService.Service
     public class PlaceInfoService : IPlaceInfoService
     {
         //public string sConStr = "Data Source=PEFLBELH3T;Initial Catalog=EmployeesDB;Integrated Security=True";
-        public string sConStr = "Data Source=tcp:sqlpocbyashish.database.windows.net,1433;Initial Catalog=EmployeesDB;Persist Security Info=False;User ID=ashish;Password=Radha@0786;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+        public string sConStr = "Data Source=sqlpocbyashish.database.windows.net,1433;Initial Catalog=EmployeesDB;Persist Security Info=False;User ID=ashish;Password=Radha@0786;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
         public int Add(PlaceInfo placeInfo)
         {
-            string sQry = "INSERT INTO [PlaceInfo] ([Place],[About],[City],[State],[Country]) " +
-                "VALUES('" + placeInfo.Place + "','" + placeInfo.About + "','" + placeInfo.City + "','" +
+            string sQry = "INSERT INTO [EmployeeDetails] ([Name],[Place],[About],[City],[State],[Country]) " +
+                "VALUES('" + placeInfo.Name + "','" + placeInfo.Place + "','" + placeInfo.About + "','" + placeInfo.City + "','" +
                 placeInfo.State + "','" + placeInfo.Country + "')";
             int retVal = ExecuteCRUDByQuery(sQry);
             return retVal;
@@ -22,10 +22,10 @@ namespace EmployeeRegistrationService.Service
 
         public int AddRange(IEnumerable<PlaceInfo> places)
         {
-            string sQry = "INSERT INTO [PlaceInfo] ([Place],[About],[City],[State],[Country]) VALUES";
+            string sQry = "INSERT INTO [EmployeeDetails] ([Name],[Place],[About],[City],[State],[Country]) VALUES";
             string sVal = "";
             foreach (var place in places)
-                sVal += "('" + place.Place + "','" + place.About + "','" + place.City + "','" + place.State + "','" + place.Country + "'),";
+                sVal += "('" + place.Name + "','" + place.Place + "','" + place.About + "','" + place.City + "','" + place.State + "','" + place.Country + "'),";
             sVal = sVal.TrimEnd(',');
             sQry = sQry + sVal;
             int retVal = ExecuteCRUDByQuery(sQry);
@@ -35,7 +35,7 @@ namespace EmployeeRegistrationService.Service
         public PlaceInfo Find(int id)
         {
             PlaceInfo placeInfo = null;
-            string sQry = "SELECT * FROM [PlaceInfo] WHERE [Id]=" + id;
+            string sQry = "SELECT * FROM [EmployeeDetails] WHERE [Id]=" + id;
             DataTable dtPlaceInfo = ExecuteQuery(sQry);
             if (dtPlaceInfo != null)
             {
@@ -48,7 +48,7 @@ namespace EmployeeRegistrationService.Service
         public IEnumerable<PlaceInfo> GetAll()
         {
             List<PlaceInfo> placeInfos = null;
-            string sQry = "SELECT * FROM [PlaceInfo]";
+            string sQry = "SELECT * FROM [EmployeeDetails]";
             DataTable dtPlaceInfo = ExecuteQuery(sQry);
             if (dtPlaceInfo != null)
             {
@@ -61,14 +61,14 @@ namespace EmployeeRegistrationService.Service
 
         public int Remove(int id)
         {
-            string sQry = "DELETE FROM [PlaceInfo] WHERE [Id]=" + id;
+            string sQry = "DELETE FROM [EmployeeDetails] WHERE [Id]=" + id;
             int retVal = ExecuteCRUDByQuery(sQry);
             return retVal;
         }
 
         public int Update(PlaceInfo placeInfo)
         {
-            string sQry = "UPDATE [PlaceInfo] SET [Place]='" + placeInfo.Place + "',[About]='" + placeInfo.About + "',[City]='" + placeInfo.City + "',[State]='" + placeInfo.State + "',[Country]='" + placeInfo.Country + "' WHERE [Id]=" + placeInfo.Id;
+            string sQry = "UPDATE [PlaceInfo] SET [EmployeeDetails]='" + placeInfo.Name + "','" + placeInfo.Place + "',[About]='" + placeInfo.About + "',[City]='" + placeInfo.City + "',[State]='" + placeInfo.State + "',[Country]='" + placeInfo.Country + "' WHERE [Id]=" + placeInfo.Id;
             int retVal = ExecuteCRUDByQuery(sQry);
             return retVal;
         }
@@ -118,6 +118,7 @@ namespace EmployeeRegistrationService.Service
         {
             PlaceInfo placeInfo = new PlaceInfo();
             placeInfo.Id = Convert.ToInt32(dr["Id"]);
+            placeInfo.Place = dr["Name"].ToString();
             placeInfo.Place = dr["Place"].ToString();
             placeInfo.About = dr["About"].ToString();
             placeInfo.City = dr["City"].ToString();

@@ -36,6 +36,13 @@ namespace EmployeeRegistrationService
             //        Description = "Sample service for Learner",
             //    });
             //});
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
@@ -84,6 +91,7 @@ namespace EmployeeRegistrationService
         {
             if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
             app.UseHttpsRedirection();
+            app.UseCors();
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
