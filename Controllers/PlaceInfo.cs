@@ -34,7 +34,7 @@ namespace EmployeeRegistrationService.Controllers
         {
             if (placeinfo == null) return BadRequest();
             int retVal = _placeInfoService.Add(placeinfo);
-            if (retVal > 0) return Ok(); else return NotFound();
+            if (retVal > 0) return Ok(new { Message = "Success" }); else return NotFound();
         }
         // PUT api/placeinfo/guid  
         [HttpPut("{id}")]
