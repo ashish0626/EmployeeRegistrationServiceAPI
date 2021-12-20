@@ -1,11 +1,13 @@
 ﻿using EmployeeRegistrationService.Interface;
 using EmployeeRegistrationService.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeRegistrationService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme)]
     public class PlaceInfoController : ControllerBase
     {
         private readonly IPlaceInfoService _placeInfoService;
@@ -13,8 +15,10 @@ namespace EmployeeRegistrationService.Controllers
         {
             _placeInfoService = placeInfoService;
         }
-        // GET api/placeinfo/id  
+        
+        // GET api/placeinfo/id
         [HttpGet("{id}", Name = nameof(GetPlaceInfoById))]
+        
         public IActionResult GetPlaceInfoById(int id)
         {
             PlaceInfo placeInfo = _placeInfoService.Find(id);
