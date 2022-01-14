@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitPublic\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj": {}
+    "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj": {}
   },
   "projects": {
-    "D:\\GitPublic\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj": {
+    "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitPublic\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
+        "projectUniqueName": "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
         "projectName": "EmployeeRegistrationService",
-        "projectPath": "D:\\GitPublic\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
+        "projectPath": "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
         "packagesPath": "C:\\Users\\mangalda\\.nuget\\packages\\",
-        "outputPath": "D:\\GitPublic\\EmployeeRegistrationServiceAPI\\obj\\",
+        "outputPath": "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
