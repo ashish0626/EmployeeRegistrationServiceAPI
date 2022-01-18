@@ -1253,11 +1253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
+      "projectUniqueName": "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
       "projectName": "EmployeeRegistrationService",
-      "projectPath": "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
+      "projectPath": "D:\\EmployeeRegistrationServiceAPI\\EmployeeRegistrationService.csproj",
       "packagesPath": "C:\\Users\\mangalda\\.nuget\\packages\\",
-      "outputPath": "D:\\GRS\\POC_1\\EmployeeRegistrationServiceAPI\\obj\\",
+      "outputPath": "D:\\EmployeeRegistrationServiceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

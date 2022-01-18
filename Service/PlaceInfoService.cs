@@ -10,7 +10,7 @@ namespace EmployeeRegistrationService.Service
     public class PlaceInfoService : IPlaceInfoService
     {
         //public string sConStr = "Data Source=PEFLBELH3T;Initial Catalog=EmployeesDB;Integrated Security=True";
-        public string sConStr = "Data Source=sqlpocbyashish.database.windows.net,1433;Initial Catalog=EmployeesDB;Persist Security Info=False;User ID=ashish;Password=Radha@0786;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+        public string sConStr = "Data Source=employeedbbyashish.database.windows.net,1433;Initial Catalog=EmployeeDB;Persist Security Info=False;User ID=ashish;Password=RadhaRani@0786;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
         public int Add(PlaceInfo placeInfo)
         {
             string sQry = "INSERT INTO [EmployeeDetails] ([Name],[Place],[About],[City],[State],[Country]) " +
